@@ -14,8 +14,8 @@ Convert a decimal amount (`github.com/shopspring/decimal`) into Thai Baht text w
   - If the value has a **fractional part**, convert the fraction into Thai satang text (สตางค์)
 
 ## How to Run (Local)
-go test ./...
-go run .
+- go test ./...
+- go run .
 
 ## Project Structure
 
