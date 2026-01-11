@@ -11,8 +11,8 @@ import (
 // ตัว runner ไว้เแสดงผลลัพธ์ตัวอย่างการแปลงจำนวนเงินเป็นข้อความภาษาไทย
 func main() {
 	inputs := []decimal.Decimal{
-		decimal.NewFromFloat(-0),
-		decimal.NewFromFloat(-33333.75),
+		decimal.NewFromFloat(1234),
+		decimal.NewFromFloat(33333.75),
 	}
 
 	for _, input := range inputs {
